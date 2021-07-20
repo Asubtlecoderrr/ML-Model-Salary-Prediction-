@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import pickle
 
-dataset = pd.read_csv('salary_predict_dataset.csv')
+dataset = pd.read_csv('hiring.csv')
 
 dataset['experience'].fillna('zero', inplace=True)
 
